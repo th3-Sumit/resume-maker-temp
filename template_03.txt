@@ -1,0 +1,154 @@
+%-------------------------
+% Resume in Latex
+% Author: Shakra Shamim
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Sumit Singh} \\ \vspace{4pt}
+    \textbf{\Large \scshape React Js Developer} \\ \vspace{4pt}
+    \small \faPhone\ +91-7470377802 ~ 
+    \href{mailto:kumarsumit747037@gmail.com}{\faEnvelope\ \underline{kumarsumit747037@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/sumit-singh-b89b3920b/}{\faLinkedin\ \underline{linkedin.com/in/sumitsingh}} 
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+Results-driven React.js Developer with 1.5+ years of hands-on experience developing scalable, responsive web applications. Proficient in modern frontend and backend technologies including React.js, Node.js, Express.js, and MongoDB. Adept at designing component-based architectures, integrating RESTful APIs, and enhancing UI/UX across platforms. Strong collaboration and problem-solving skills, with proven success in delivering production-ready features in agile environments.
+
+%-----------SKILLS-----------
+\section{Skills}
+\textbf{Frontend:} JavaScript (ES6+), React.js, Redux, React Hooks, Context API \\
+\textbf{Backend \& Database:} Node.js, Express.js, MongoDB, REST APIs, JWT Auth \\
+\textbf{Styling \& UI:} Tailwind CSS, Bootstrap, Responsive Design, Custom CSS \\
+\textbf{Tools:} Git, GitHub, Postman, VSCode, Figma, Chrome DevTools \\
+\textbf{Soft Skills:} Agile Methodology, Communication, Debugging, Team Collaboration
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Weboapp Discovery Pvt Ltd}{Apr 2024 – Present}
+    {Full Stack Developer (Remote)}{Tools: \textbf{React.js, Node.js, Express, MongoDB, Tailwind, Bootstrap}}
+    \resumeItemListStart
+      \resumeItem{Engineered and deployed 10+ reusable UI components, reducing code duplication by 40\%.}
+      \resumeItem{Integrated secure \textbf{JWT-based authentication} and role-based access control across protected routes.}
+      \resumeItem{Optimized API calls and component performance, reducing load time by 35\% and improving Core Web Vitals.}
+      \resumeItem{Worked with designers to implement pixel-perfect, responsive layouts, improving mobile usability scores by 20\%.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Weboapp Discovery Pvt Ltd}{Sep 2023 – Mar 2024}
+    {Software Developer Intern (Remote)}{Tools: \textbf{React.js, Tailwind CSS, REST APIs}}
+    \resumeItemListStart
+      \resumeItem{Built responsive user interfaces with \textbf{React Hooks} and \textbf{Context API}, enhancing reusability and scalability.}
+      \resumeItem{Collaborated with backend developers to integrate 15+ RESTful APIs for seamless user interaction.}
+      \resumeItem{Reduced component rendering issues by 50\% through optimized state management and cleanup functions.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{Speaker Management Portal} $|$ \emph{React.js, REST API, Tailwind}}{}
+    \resumeItemListStart
+      \resumeItem{Developed portal used by 200+ users for speaker onboarding, session tracking, and material uploads.}
+      \resumeItem{Built admin dashboard with live filtering, approval actions, and visual analytics using charts.}
+      \resumeItem{Improved admin efficiency by 35\% through intuitive UI and bulk session management tools.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Project Management System} $|$ \emph{React.js, Node.js, Express, MongoDB}}{}
+    \resumeItemListStart
+      \resumeItem{Created a real-time system for managing 50+ concurrent tasks across multiple users.}
+      \resumeItem{Implemented chat, file sharing, and email notifications to support team collaboration.}
+      \resumeItem{Reduced project delivery delays by 30\% through milestone-based tracking and performance analytics.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications \& Awards}
+\resumeItemListStart
+  \resumeItem{\textbf{Full-Time Internship Certificate – Weboapp Discovery (2024):} Completed 6-month internship; delivered production features with React and Tailwind.}
+  \resumeItem{\textbf{Cisco – Introduction to Cybersecurity (2021):} Completed foundational cybersecurity course covering network threats and digital protection.}
+  \resumeItem{\textbf{Sood Charity Foundation Scholarship:} Awarded full B.Tech tuition for academic merit and community service.}
+\resumeItemListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {B.Tech – Computer Science Engineering}{Graduated: 2024}
+    {CT University, Ludhiana}{CGPA: 7.8 / 10}
+\resumeSubHeadingListEnd
+
+
+\end{document}
